@@ -1,0 +1,21 @@
+package in.cdac;
+
+public class assingment {
+    public static void main(String[] args) {
+       
+        int numBits = Byte.SIZE;
+        System.out.println("Number of bits used to represent a byte value: " + numBits);
+        
+       
+        int numBytes = Byte.BYTES;
+        System.out.println("Number of bytes used to represent a byte value: " + numBytes);
+        
+       
+        byte minValue = Byte.MIN_VALUE;
+        System.out.println("Minimum value a byte can hold: " + minValue);
+        
+       
+        byte maxValue = Byte.MAX_VALUE;
+        System.out.println("Maximum value a byte can hold: " + maxValue);
+    }
+}
