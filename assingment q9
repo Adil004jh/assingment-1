@@ -1,0 +1,26 @@
+package in.cdac;
+
+
+public class assingment {
+    public static void main(String[] args) {
+        Byte byteObject = 127;
+        
+        byte byteValue = byteObject.byteValue();
+        System.out.println("Byte value as byte: " + byteValue);
+        
+        short shortValue = byteObject.shortValue();
+        System.out.println("Byte value as short: " + shortValue);
+        
+        int intValue = byteObject.intValue();
+        System.out.println("Byte value as int: " + intValue);
+        
+        long longValue = byteObject.longValue();
+        System.out.println("Byte value as long: " + longValue);
+        
+        float floatValue = byteObject.floatValue();
+        System.out.println("Byte value as float: " + floatValue);
+        
+        double doubleValue = byteObject.doubleValue();
+        System.out.println("Byte value as double: " + doubleValue);
+    }
+}
