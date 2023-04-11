@@ -1,0 +1,25 @@
+package in.cdac;
+public class assingment{
+	    public static void main(String[] args) {
+	    	  	    	       
+	    	        int num = 1234;
+	    	        String str1 = Integer.toString(num);
+	    	        System.out.println("int value " + num + " as String: " + str1);
+
+	    	        Integer numObj = Integer.valueOf(num);
+	    	        System.out.println("int value " + num + " as Integer object: " + numObj);
+
+	    	        String str2 = "5678";
+	    	        Integer numObj2 = Integer.parseInt(str2);
+	    	        System.out.println("String " + str2 + " as Integer object: " + numObj2);
+
+	    	        String binaryStr = Integer.toBinaryString(num);
+	    	        System.out.println("int value " + num + " as binary string: " + binaryStr);
+
+	    	        String octalStr = Integer.toOctalString(num);
+	    	        System.out.println("int value " + num + " as octal string: " + octalStr);
+                
+                String hexStr = Integer.toHexString(num);
+	    	        System.out.println("int value " + num + " as hexadecimal string: " + hexStr);
+	    	    }
+	    	}
