@@ -1,0 +1,27 @@
+package in.cdac;
+public class assingment{
+	    public static void main(String[] args) {
+	    	
+	    	        Integer num = 123;
+	    	        
+	    	        byte b = num.byteValue();
+	    	        System.out.println("Byte value: " + b);
+	    	        
+	    	        short s = num.shortValue();
+	    	        System.out.println("Short value: " + s);
+	    	        
+	    	        int i = num.intValue();
+	    	        System.out.println("Int value: " + i);
+	    	        
+	    	        long l = num.longValue();
+	    	        System.out.println("Long value: " + l);
+	    	        
+	    	        float f = num.floatValue();
+	    	        System.out.println("Float value: " + f);
+	    	        
+	    	        double d = num.doubleValue();
+	    	        System.out.println("Double value: " + d);
+	    	    }
+	    	}
+
+	   
