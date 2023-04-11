@@ -1,0 +1,19 @@
+package in.cdac;
+public class assingment
+
+{
+ public static void main(String[] args) {
+ 
+        short num = 1234;
+        String str = Short.toString(num);
+        System.out.println("Short value " + num + " converted to String: " + str);
+        
+        Short shortObj = Short.valueOf(num);
+        System.out.println("Short value " + num + " converted to Short instance: " + shortObj);
+        
+   
+        String strNum = "5678";
+        Short shortObj1 = Short.valueOf(strNum);
+        System.out.println("String " + strNum + " converted to Short instance: " + shortObj1);
+    }
+}
