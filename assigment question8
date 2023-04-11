@@ -1,0 +1,21 @@
+package in.cdac;
+
+
+public class assingment {
+    public static void main(String[] args) {
+        byte byteValue = 100;
+        
+        // a. byte value into String
+        String byteString = Byte.toString(byteValue);
+        System.out.println("Byte value as a String: " + byteString);
+        
+        // b. byte value into Byte instance
+        Byte byteObject = Byte.valueOf(byteValue);
+        System.out.println("Byte value as Byte instance: " + byteObject);
+        
+        // c. String instance into Byte instance
+        String stringValue = "50";
+        Byte byteFromString = Byte.valueOf(stringValue);
+        System.out.println("String value as Byte instance: " + byteFromString);
+    }
+}
