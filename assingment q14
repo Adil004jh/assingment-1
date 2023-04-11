@@ -1,0 +1,28 @@
+package in.cdac;
+public class assingment{
+
+	    public static void main(String[] args) {
+	     
+	        Short shortObj = 1234;
+	        System.out.println("Short instance: " + shortObj);
+	        
+	        byte byteValue = shortObj.byteValue();
+	        System.out.println("Byte value of Short instance: " + byteValue);
+	        
+	       
+	        short shortValue = shortObj.shortValue();
+	        System.out.println("Short value of Short instance: " + shortValue);
+	        
+	        int intValue = shortObj.intValue();
+	        System.out.println("Int value of Short instance: " + intValue);
+	       
+	        long longValue = shortObj.longValue();
+	        System.out.println("Long value of Short instance: " + longValue);
+	        
+	        float floatValue = shortObj.floatValue();
+	        System.out.println("Float value of Short instance: " + floatValue);
+	        
+	        double doubleValue = shortObj.doubleValue();
+	        System.out.println("Double value of Short instance: " + doubleValue);
+	    }
+	}
