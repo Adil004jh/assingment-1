@@ -1,0 +1,25 @@
+package in.cdac;
+
+public class assingment {
+	    public static void main(String[] args) {
+	        Long longValue = Long.valueOf(123456789);
+
+	        byte byteValue = longValue.byteValue();
+	        System.out.println("Long to Byte: " + byteValue);
+
+	        short shortValue = longValue.shortValue();
+	        System.out.println("Long to Short: " + shortValue);
+
+	        int intValue = longValue.intValue();
+	        System.out.println("Long to Int: " + intValue);
+
+	        long longValue2 = longValue.longValue();
+	        System.out.println("Long to Long: " + longValue2);
+
+	        float floatValue = longValue.floatValue();
+	        System.out.println("Long to Float: " + floatValue);
+
+	        double doubleValue = longValue.doubleValue();
+	        System.out.println("Long to Double: " + doubleValue);
+	    }
+	}
