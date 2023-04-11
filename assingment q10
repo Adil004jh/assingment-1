@@ -1,0 +1,16 @@
+package in.cdac;
+public class assingment {
+    public static void main(String[] args) {
+        int numBits = Character.SIZE;
+        System.out.println("Number of bits used to represent a char value: " + numBits);
+        
+        int numBytes = Character.BYTES;
+        System.out.println("Number of bytes used to represent a char value: " + numBytes);
+        
+        char minValue = Character.MIN_VALUE;
+        System.out.println("Minimum value a char can hold: " + (int)minValue);
+        
+        char maxValue = Character.MAX_VALUE;
+        System.out.println("Maximum value a char can hold: " + (int)maxValue);
+    }
+}
