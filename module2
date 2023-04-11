@@ -1,0 +1,17 @@
+package in.cdac.acts;
+
+public class BooleanConversionExample {
+    public static void main(String[] args) {
+        boolean boolValue = true;
+        String stringValue = "false";
+        
+        String boolString = String.valueOf(boolValue);
+        System.out.println("Boolean value as String: " + boolString);
+        Boolean boolInstance = Boolean.valueOf(boolValue);
+        System.out.println("Boolean value as Boolean instance: " + boolInstance);
+        boolean stringBoolValue = Boolean.parseBoolean(stringValue);
+        System.out.println("String value as boolean value: " + stringBoolValue);
+        Boolean stringBoolInstance = Boolean.valueOf(stringValue);
+        System.out.println("String value as Boolean instance: " + stringBoolInstance);
+    }
+}
