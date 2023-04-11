@@ -1,0 +1,17 @@
+package in.cdac;
+public class assingment{
+	    public static void main(String[] args) {
+	        int numBits = Integer.SIZE;
+	        System.out.println("Number of bits used to represent an integer value: " + numBits);
+
+	        int numBytes = Integer.BYTES;
+	        System.out.println("Number of bytes used to represent an integer value: " + numBytes);
+
+	        int minValue = Integer.MIN_VALUE;
+	        System.out.println("Minimum value an integer can hold: " + minValue);
+
+	        int maxValue = Integer.MAX_VALUE;
+	        System.out.println("Maximum value an integer can hold: " + maxValue);
+	    }
+	}
+  
